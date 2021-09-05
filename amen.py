@@ -1,0 +1,16 @@
+from turtle import *
+bgcolor('black')
+color('lime')
+fillcolor('green')
+begin_fill()
+speed(11)
+shape('turtle')
+stamp()
+for i in range(40):
+    circle(i * 1.3)
+    right(120)
+    backward(2.5)
+    goto(0, 180)
+end_fill()
+hideturtle()
+done()
